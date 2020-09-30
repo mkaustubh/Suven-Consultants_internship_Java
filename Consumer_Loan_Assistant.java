@@ -13,6 +13,7 @@ public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
     Boolean tf3enabled=false,tf4enabled=true;
 
     Consumer_Loan_Assistant(){
+        super("                                                                          Consumer Loan Assistant");
 
         ta=new JTextArea("");
         ta.setBounds(400,40,300,150);
